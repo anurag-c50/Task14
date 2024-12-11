@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    font-family: baloo, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 23px;
+    color: #8f8f8f;
+    font-weight: 500;
+    }
