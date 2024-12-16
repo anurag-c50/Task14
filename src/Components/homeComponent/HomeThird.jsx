@@ -174,6 +174,10 @@ background: #a3dbf0;
     color: inherit;
     background: #a3dbf0;
     }
+       .info button:hover{
+       font-size: 13px;
+    color: black;
+    }
     .cards{
     height: 56vh;
     margin-top: 58px;
@@ -247,5 +251,8 @@ color: #2f3237;
     font-size: 24px;
     padding: 7px 30px;
     border-radius: 3px;
+    }
+    .button:hover{
+    background: #f5f3ee;
     }
 `

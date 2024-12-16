@@ -113,9 +113,13 @@ color: white;
     text-transform: capitalize;
     padding: 10px 11px;
     font-size: 19px;
+    background:rgb(255, 255, 255);
     width: 9vw;
     border: none;
     border-radius: 5px;
+    }
+    .span{
+    cursor:pointer;
     }
     .info{
     display: flex;
@@ -142,5 +146,8 @@ margin-top: 23px;
     display: flex;
     justify-content: space-around;
     margin-top: 16px;
+    }
+    button:hover{
+        background: #d0d0d0;
     }
     `

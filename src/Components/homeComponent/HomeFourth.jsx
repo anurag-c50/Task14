@@ -136,6 +136,7 @@ height: 64vh;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+    border-color: #007bff;
     width:8vw
 }
 `

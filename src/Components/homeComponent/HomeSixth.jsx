@@ -62,4 +62,8 @@ border-color: #23a6d7;
     width: 9vw;
     border-radius: 7px;
     }
+    button:hover{
+        background: #0890c3;
+    cursor: pointer;
+    }
 `
