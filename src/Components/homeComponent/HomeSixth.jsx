@@ -66,4 +66,28 @@ border-color: #23a6d7;
         background: #0890c3;
     cursor: pointer;
     }
+     @media only screen and (max-width:989px){
+.img {
+    width: 100%;
+}
+    .Conatiner {
+        height: 147.5vh;
+        flex-direction: column;
+        justify-content: flex-start;
+}
+    button {
+    width: 104px;
+    padding: 0px 0px;
+    height: 44px;
+}
+    .content h2 {
+    font-size: 1.3rem;
+}
+        .content h3 {
+    font-size: 0.8rem;
+}
+    .content {
+    width: 90%;
+}
+}
 `

@@ -39,7 +39,7 @@ export default function HomeFourth() {
 }
 const Container= styled.div`
 .Conatiner{
-  height: 140vh;
+  height: 154vh;
   display: flex;
       padding-left: 168px;
     padding-right: 168px;
@@ -52,6 +52,9 @@ const Container= styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 41vh;
     }
      .headline h2:after{
         margin-top: 0.3em;
@@ -89,7 +92,7 @@ font-family: FuturaPT, sans-serif;
         margin-bottom: 21px;
     }
     form{
-    height: 65vh;
+    height: auto;
     width: 36vw;
     display: flex;
     flex-direction: column;
@@ -137,6 +140,64 @@ height: 64vh;
     line-height: 1.5;
     border-radius: .25rem;
     border-color: #007bff;
-    width:8vw
 }
+  @media only screen and (max-width:1147px){
+  .headline h2 {
+    font-size: 1rem;
+    }
+    .headline h3 {
+    font-size: 0.8rem;
+}
+}
+  @media only screen and (max-width:1000px){
+.Conatiner {
+    padding: 36px 20px 30px 29px;
+}
+    .formImg{
+    justify-content: center;}
+}
+  @media only screen and (max-width:760px){
+      label {
+    font-size: 0.7rem;
+}
+
+    input {
+    font-size: 1rem;
+}
+.Conatiner {
+    height: 208vh;
+}
+  .formImg {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}}
+      @media only screen and (max-width:567px){
+          label {
+    font-size: 0.9rem;
+}
+
+    input {
+    font-size: 0.7rem;
+}
+   .Conatiner {
+        height: 227vh;
+    }
+}
+          @media only screen and (max-width:403px){
+              label {
+    font-size: 0.6rem;
+}
+
+    input {
+    font-size: 0.5rem;
+}
+     .headline h2 {
+    font-size: 0.7rem;
+    }
+    .headline h3 {
+    font-size: 0.6rem;
+    }
+}
+
 `

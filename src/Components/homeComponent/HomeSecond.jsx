@@ -56,15 +56,14 @@ const Container=styled.div`
   align-items: center;
 }
   .subConatin{
-height: 76vh;
+height: 87vh;
     width: 72vw;
   }
     .Headline{
-
     color: #47525e;
     margin-top: 0;
-margin-bottom: 1.4em;
-    font-size: 35px;
+    margin-bottom: 1.4em;
+    font-size: 1.5rem;
     }
     .Headline:after{
     margin-top: 0.3em;
@@ -78,7 +77,7 @@ margin-bottom: 1.4em;
     .subHeadline{
         font-family:baloo, sans-serif;
         font-weight: 400;
-        font-size: 27px;
+        font-size: 1.2rem;
         line-height: 1.2;
         color: #47525e;
 
@@ -87,6 +86,7 @@ margin-bottom: 1.4em;
     height: 52vh;
     width: 72vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     }
     .card{
@@ -95,7 +95,7 @@ margin-bottom: 1.4em;
     }
     .Tag{
     margin-bottom: 57px;
-        width: 53vw;
+        width: 100%;
     }
         .cardHeadline{
             height: 28vh;
@@ -106,22 +106,60 @@ margin-bottom: 1.4em;
         color: #47525e;
         margin: 0;
             margin-bottom: 1em;
-            font-size: 27px;
+            font-size: 1rem;
         }
         .cardHeadline h4{
         margin: 0;
             font-weight: 400;
-        font-size: 20px;
+        font-size: 0.9rem;
     color: #47525e;
         height: 3.8em;
         }
         .img{
             height: 24vh;
-        }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
         .img img{
             position: absolute;
     height: 24vh;
 
         }
+        @media only screen and (max-width:1350px){
+                .img img{
+                    height: 16vh;
 
+        }}
+     @media only screen and (max-width:1050px){
+     .card {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+  .subConatin {
+        height: 156vh;
+        }
+.Container {
+height: 173vh;
+}}
+     @media only screen and (max-width:770px){
+.Headline {
+    font-size: 1.2rem;
+}
+    .subHeadline {
+    font-size: 1rem;
+}
+    .cardHeadline h3 {
+    font-size: 0.8rem;
+}
+    .cardHeadline h4 {
+    font-size: 0.7rem;
+}
+}
+     @media only screen and (max-width:650px){
+    .img img {
+        height: 16vh;
+    }
+}
+}
 `

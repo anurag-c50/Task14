@@ -93,7 +93,7 @@ export default function HomeThird() {
 }
 const Container=styled.div`
 .Container{
-  height: 110vh;
+  height: 116vh;
   display: flex;
       padding-left: 168px;
     padding-right: 168px;
@@ -102,7 +102,7 @@ const Container=styled.div`
 }
 .Headline h2{
     margin-bottom: 0.9em;
-    font-size: 35px;
+    font-size: 1.5rem;
     font-family: baloo, sans-serif;
     color: #47525e;
 }
@@ -128,10 +128,10 @@ const Container=styled.div`
     margin-left: 0;
         height: 40px;
     padding: 4px 25px;
-    font-size: 19px;
+    font-size: 0.9rem;
 }
     .fillter{
-    font-size: 17px;
+    font-size: 0.8rem;
     border-radius: 4px;
     color: #49525d;
     }
@@ -153,7 +153,7 @@ const Container=styled.div`
             .info{
 background: #a3dbf0;
     border: 2px solid #77cae9;
-    height: 5vh;
+    height: auto;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
@@ -164,7 +164,7 @@ background: #a3dbf0;
     color: #0c5460;}
     .info h2{
     margin: 0;
-    font-size: 15px;
+    font-size: 0.65rem;
     }
     .info button{
         font-size: 11px;
@@ -248,11 +248,65 @@ color: #2f3237;
     border: none;
     background: #23a6d7;
     color: #fff;
-    font-size: 24px;
-    padding: 7px 30px;
+     font-size: 0.8rem;
     border-radius: 3px;
+    height: 6vh;
+    width: 10vw;
     }
     .button:hover{
     background: #f5f3ee;
     }
+         @media only screen and (max-width:1159px){
+    .Headline h2 {
+    font-size: 1.2rem;}
+    #button1 {
+    font-size: 0.7rem;
+}
+    .fillter {
+    font-size: 0.7rem;
+}
+.info h2 {
+    font-size: 0.6rem;
+}
+             .imageheadline h2 {
+    font-size: .9rem;
+    text-align: center;
+}
+    .imageheadline h3 {
+    font-size: 0.6rem;
+    text-align: center;
+}
+.orderbutton button {
+    font-size: 0.8rem;
+}
+    .lnKNqG .card{
+    margin: 0px 7px;
+}
+}
+
+    @media only screen and (max-width:990px){
+    .LoctaionButton {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:normal;
+}
+}
+    @media only screen and (max-width:681px){
+    .Container {
+    padding-left: 100px;
+    padding-right: 57px;
+    }
+}
+        @media only screen and (max-width:499px){
+
+            .Container {
+      height: 138vh;
+    }
+              @media only screen and (max-width:374px){
+            .Container {
+      height: 152vh;
+    }
+}
+}
+
 `

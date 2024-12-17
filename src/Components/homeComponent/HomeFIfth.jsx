@@ -34,15 +34,19 @@ height: 100vh;
     justify-content: center;
 }
     .headline{
-        padding: 0px 59px 0px 18px;
+        padding: 0px 59px 0px 0px;
     }
         form{
         width:47vw;}
         .headline h2{
             color: white;
+                font-size: 1.5rem;
+
         }
         .headline h3{
         font-size: 20px;
+            font-size: 1rem;
+
     color: white
         }
       .Subscribe{
@@ -57,7 +61,7 @@ height: 100vh;
       }
     .img img{    
 width: 100%;
-    height: 100vh;
+    height: 100%;
 }
     .oneinput{
         height: 5vh;
@@ -99,11 +103,69 @@ width: 100%;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 4px;
-    width: 9vw;
-    margin-top: 54px;
+    width: 120px;
+    margin-top: 29px;
     padding: 9px 8px;
     }
    button:hover{
         background: #67ca6d;
     }
+ @media only screen and (max-width:989px){
+        .Conatiner {
+    height: 123vh;
+    flex-direction: column-reverse;
+}
+         .headline{
+    margin:0;
+}
+    .img {
+    width: 100%;
+        height: 50%;
+
+}
+  .headline h2 {
+    margin-top: 0;
+}
+    .Subscribe {
+    width: 96%;
+    height: 50%;
+    padding: 0px 14px;
+}
+    form {
+    width: 100%;
+}
+   .twoinput {
+    width: 100%;
+}
+    .oneinput {
+    width: 100%;
+}
+        .twoinput input {
+    width: 46%;
+}
+    .oneinput input {
+    width: 100%;
+}
+         button {
+        margin-bottom: 13px;
+}
+     @media only screen and (max-width:670px){
+     .headline h2 {
+    font-size: 1.2rem;
+
+}
+    .headline h3 {
+    font-size: 0.8rem;
+}
+    .twoinput input {
+        font-size: 0.7rem;
+    }
+            .oneinput input {
+        font-size: 0.7rem;
+    }
+     button {
+    font-size: 0.7rem;
+    padding: 5px 8px;
+        margin-bottom: 13px;
+}}
 `

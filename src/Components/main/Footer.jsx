@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div className="info part">
                 <h2>Contact Us</h2>
-                <h2>info@healthyplaneat.com</h2>
+                <h3>info@healthyplaneat.com</h3>
             </div>
             <div className="socialMedia part">
                 <div className="headline">Follow Us</div>
@@ -41,32 +41,30 @@ export default function Footer() {
 }
 const Conatiner=styled.div`
 .container{
-height:40vh;
 background: #23a6d7;
 display: flex;
 justify-content: center;
 flex-direction:column;
 }
 .subConatiner{
-    height: 35vh;
-        display: flex
-;
+        display: flex;
     justify-content: center;
 }
 .copyrigth p{
 color: white;
-    height: 3vw;
-    font-size: 19px;
+    height: 2vw;
+        margin: 0;
+    padding: 0;
     text-align: center;}
     form h2{
     color:white;
     margin:0;
-    font-size: 24px;
+    font-size: 1.2rem;
     text-align: center;
     }
     form{
         display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     height: 13vw;
     align-items: center;
@@ -74,12 +72,13 @@ color: white;
 }
     }
     .part{
-    // border: 2px solid;
-    width: 27vw;
+    width: 28vw;
+    margin-top:26px;
         }
     .twoinput{
     height: 7vh;
-    width: 26vw;
+    width: 27vw;
+    margin: 8px 0px;
     display: flex;
     justify-content: space-between;
     }
@@ -87,14 +86,15 @@ color: white;
     background: #4fb8df;
     border: 0;
     color: #fff;
-    font-size: 20px;
-    width: 12vw;
+    font-size: 0.8rem;
+    width: 44%;
+        height: 6vh;
     padding-left: 9px;
     border-radius: 6px}
 
         .oneinput{
     height: 7vh;
-    width: 26vw;
+    width: 27vw;
     display: flex;
     justify-content: center;
     }
@@ -102,21 +102,24 @@ color: white;
     background: #4fb8df;
     border: 0;
     color: #fff;
-    font-size: 20px;
-    width: 27vw;
+    font-size: 0.8rem;
+        height: 6vh;
+    width: 100%;
     padding-left: 9px;
     border-radius: 6px}
+    
     form button{
     color: #23a6d7;
     cursor: pointer;
     font-weight: 300;
     text-transform: capitalize;
     padding: 10px 11px;
-    font-size: 19px;
+    font-size: 0.8rem;
     background:rgb(255, 255, 255);
-    width: 9vw;
+    width: 100px;
     border: none;
     border-radius: 5px;
+    margin-top: 12px;
     }
     .span{
     cursor:pointer;
@@ -130,7 +133,10 @@ color: white;
     }
     .info h2{
     margin-top:22px;
-    margin-bottom:0;
+    margin-bottom:18px;
+    }
+        .info h3{
+    margin:0px;
     }
     .socialMedia{
     display: flex;
@@ -141,13 +147,102 @@ color: white;
     .headline{
 margin-top: 23px;
     color: white;    }
+    
     .icon{
-    width: 13vw;
+    width: 200px;
     display: flex;
     justify-content: space-around;
     margin-top: 16px;
     }
+    
     button:hover{
         background: #d0d0d0;
     }
+@media only screen and (min-width:1128px){
+
+    .container {
+    height: 40vh;
+}
+    .subConatiner {
+    height: 35vh;
+}
+}
+
+ @media only screen and (max-width:1128px){
+ .part{
+    width: 72vw;
+        }
+.subConatiner {
+        height: 73vh;
+        flex-direction: column;
+        width: 83%;
+    justify-content: space-around;
+        align-items: center;
+    }
+     .container {
+    height: 79vh;
+    align-items: center;
+}
+    form {
+    height: 13vw;
+}
+    .twoinput {
+    height: 7vh;
+    width: 53vw;
+}
+    .twoinput input {
+    font-size: 0.8rem;
+    width: 46%;
+    height: 7vh;
+}
+        .oneinput {
+    height: 7vh;
+    width: 53vw;
+}
+    .oneinput input {
+    width: 100%;
+    height: 7vh;
+}
+
+    .socialMedia{
+    margin-top:0;
+    }
+}
+         @media only screen and (min-width:750px){
+    .copyrigth p {
+    font-size: 0.9rem;
+     }
+}
+     @media only screen and (max-width:750px){
+    .copyrigth p {
+    font-size: 0.6rem;
+     }
+    .info h2 {
+    margin-top: 55px;
+    margin-bottom: 18px;
+}
+     form h2 {
+    font-size: 1rem;
+}       .twoinput input {
+        font-size: 0.7rem;
+        width: 46%;
+        height: 5vh;
+    }
+        .oneinput input {
+        font-size: 0.7rem;
+    }
+form button {
+    color: #23a6d7;
+    cursor: pointer;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 10px 11px;
+    font-size: 0.6rem;
+    background: rgb(255, 255, 255);
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+}
     `

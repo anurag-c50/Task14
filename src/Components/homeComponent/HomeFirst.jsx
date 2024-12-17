@@ -141,6 +141,11 @@ const Container=styled.div`
         .btn:hover{
         background:#e58200;
         }
+  @media only screen and (min-width:1100px){
+  .paragraph{
+    font-size: 1.5rem;
+    }
+}
             @media only screen and (max-width:1100px){
   .paragraph{
     font-size: 1rem;
@@ -168,4 +173,10 @@ const Container=styled.div`
   .Tag2 {
     font-size: 0.9rem;
     }
+}   
+    @media only screen and (max-width:694px){
+    .Signbutton {
+        right: 0px;
+    }
+}
 `

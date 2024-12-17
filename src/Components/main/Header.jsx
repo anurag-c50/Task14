@@ -57,13 +57,14 @@ const Container = styled.div`
     align-items: center;
 }
     .submenu{
-    width: 73%;
+       width: 73%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.3rem 0;
     font-size: 0.7rem;
-    font-weight: 300;}
+    font-weight: 300;
+    height: 100%;}
     a{
         color: #23a6d7;
     text-decoration: none;
@@ -101,8 +102,8 @@ const Container = styled.div`
     display: none;
     }
     .submenuPhone{
-        height: 9vh;
-        width: 86vw;
+         height: 100%;
+        width: 95%;
         display: flex;
         justify-content: space-between;
     }
@@ -110,6 +111,7 @@ const Container = styled.div`
         width:13;
         }
         .logo img{
+            height: 40%;
           margin-top: 8px;
         }
       .cart img{
@@ -119,17 +121,23 @@ const Container = styled.div`
           margin-top: 8px;
         }
     .menuphone{
-        width: 18vw;
+          width: 15%;
         text-align: center;
+        position: relative;
+        top: 8px;
+        left: -7px;
+
     }
         .menubar{    
-    margin-top: 8px;
-    width: 9vw;
-    height: 7vh;
-    background: #fe9000;
-    margin-right: 100px;
-    border-radius: 5px;
+           margin-top: 8px;
+        width: 10%;
+        background: #fe9000;
+        border-radius: 5px;
         color: rgba(0, 0, 0, .5);
-    border-color: rgba(0, 0, 0, .1);
-}}
+        border-color: rgba(0, 0, 0, .1);
+        height: 59%;
+}
+}
+
+
     `
