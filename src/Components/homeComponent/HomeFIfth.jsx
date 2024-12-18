@@ -150,6 +150,10 @@ width: 100%;
         margin-bottom: 13px;
 }
      @media only screen and (max-width:670px){
+     form{
+     margin-bottom:24px;
+     }
+     
      .headline h2 {
     font-size: 1.2rem;
 

@@ -52,7 +52,6 @@ flex-direction:column;
 }
 .copyrigth p{
 color: white;
-    height: 2vw;
         margin: 0;
     padding: 0;
     text-align: center;}
@@ -63,17 +62,21 @@ color: white;
     text-align: center;
     }
     form{
-        display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 13vw;
     align-items: center;
+    position: absolute;
+    top: 0;
     
-}
     }
     .part{
-    width: 28vw;
-    margin-top:26px;
+    width: 33.33%;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
         }
     .twoinput{
     height: 7vh;
@@ -125,34 +128,32 @@ color: white;
     cursor:pointer;
     }
     .info{
-    display: flex;
-    flex-direction: column;
     color: white;
     font-size: 16px;
-    align-items: center;
     }
     .info h2{
-    margin-top:22px;
-    margin-bottom:18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
     }
         .info h3{
-    margin:0px;
-    }
-    .socialMedia{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-        align-items: center;
-    }
+    margin: 43px 0px;
+    position: absolute;
+    top: 0;    }
     .headline{
 margin-top: 23px;
-    color: white;    }
+    color: white;
+    position: relative;
+    bottom: 128px;   }
     
     .icon{
-    width: 200px;
+    width: 42%;
     display: flex;
     justify-content: space-around;
     margin-top: 16px;
+    position: absolute;
+    top: 38px;
     }
     
     button:hover{
@@ -161,19 +162,23 @@ margin-top: 23px;
 @media only screen and (min-width:1128px){
 
     .container {
-    height: 40vh;
+    height: 45vh;
 }
     .subConatiner {
-    height: 35vh;
+    height: 91%;
 }
+    .copyrigth{
+    height: 8%;
+    }
 }
 
  @media only screen and (max-width:1128px){
  .part{
-    width: 72vw;
-        }
+        width: 100%;
+        margin: 0px 0px;
+        height: 33%;        }
 .subConatiner {
-        height: 73vh;
+        height: 90%;
         flex-direction: column;
         width: 83%;
     justify-content: space-around;
@@ -183,9 +188,8 @@ margin-top: 23px;
     height: 79vh;
     align-items: center;
 }
-    form {
-    height: 13vw;
-}
+    .headline{
+    bottom:0;}
     .twoinput {
     height: 7vh;
     width: 53vw;
@@ -207,6 +211,33 @@ margin-top: 23px;
     .socialMedia{
     margin-top:0;
     }
+    .info h2 {
+    position: unset;
+}
+        .info h3 {
+        margin:0;
+    position: unset;
+}
+    .info {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    .socialMedia {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon {
+    width: 42%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    position: unset;
+    top: 0px;
+}
 }
          @media only screen and (min-width:750px){
     .copyrigth p {

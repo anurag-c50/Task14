@@ -39,7 +39,7 @@ export default function HomeFourth() {
 }
 const Container= styled.div`
 .Conatiner{
-  height: 154vh;
+  height: 172vh;
   display: flex;
       padding-left: 168px;
     padding-right: 168px;
@@ -54,7 +54,7 @@ const Container= styled.div`
     flex-direction: column;
     width: 100%;
     text-align: center;
-    height: 41vh;
+    height: 25%;
     }
      .headline h2:after{
         margin-top: 0.3em;
@@ -71,8 +71,8 @@ const Container= styled.div`
     margin-top: 0.1em;
     margin-bottom: 1.2em;
     font-size: 35px;
-    width: 67vw;
-    text-align: center;
+    width: 100%;
+        text-align: center;
     }
     .headline h3{
         margin-top: 0;
@@ -92,25 +92,25 @@ font-family: FuturaPT, sans-serif;
         margin-bottom: 21px;
     }
     form{
-    height: auto;
-    width: 36vw;
+height: auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     }
     .form{
-    width: 30vw;
+       width: 81%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    }
+}
     .img{
-    width: 38vw;
-    }
+    width: 50%;
+        }
     .img img{
-height: 64vh;
-    width: 38vw;
+    height: 85%;
+    width: 100%;
     }
     input{
     display: block;

@@ -56,8 +56,8 @@ const Container=styled.div`
   align-items: center;
 }
   .subConatin{
-height: 87vh;
-    width: 72vw;
+height: 83%;
+    width: 73%;
   }
     .Headline{
     color: #47525e;
@@ -83,22 +83,23 @@ height: 87vh;
 
     }
         .Cards{
-    height: 52vh;
-    width: 72vw;
+    height: 63%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     }
     .card{
-    height: 52vh;
-    width: 24vw;
+    height: 100%;
+    width: 33.33%;
     }
     .Tag{
     margin-bottom: 57px;
-        width: 100%;
+           width: 100%;
+    height: 30%;
     }
         .cardHeadline{
-            height: 28vh;
+               height: 50%;
             text-align:center;
         }
         .cardHeadline h3{
@@ -116,14 +117,14 @@ height: 87vh;
         height: 3.8em;
         }
         .img{
-            height: 24vh;
+            height: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             }
         .img img{
             position: absolute;
-    height: 24vh;
+    height: 24%;
 
         }
         @media only screen and (max-width:1350px){
@@ -137,11 +138,18 @@ height: 87vh;
     max-width: 50%;
 }
   .subConatin {
-        height: 156vh;
+        height: 96%;
         }
-.Container {
+  .Container {
 height: 173vh;
-}}
+.Tag {
+    height: 17%;
+}
+    .Cards {
+    height: 32%;
+}
+   }}
+
      @media only screen and (max-width:770px){
 .Headline {
     font-size: 1.2rem;
@@ -158,8 +166,24 @@ height: 173vh;
 }
      @media only screen and (max-width:650px){
     .img img {
-        height: 16vh;
+        height: 16%;
     }
 }
+         @media only screen and (max-width:500px){
+    .Container {
+        height: 215vh;
+    }
+    .Container .Tag {
+        height: 17%;
+    }
+    .Container .Cards {
+        height: 26%;
+    }
+    .card {
+        flex: 0 0 51%;
+        max-width: 51%;
+    }
 }
+
+
 `

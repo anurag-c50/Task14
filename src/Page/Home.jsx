@@ -7,11 +7,12 @@ import HomeFourth from '../Components/homeComponent/HomeFourth'
 import HomeFIfth from '../Components/homeComponent/HomeFIfth'
 import HomeSixth from '../Components/homeComponent/HomeSixth'
 import HomeFirst from '../Components/homeComponent/HomeFirst'
-export default function Home() {
+import SignupPop from '../Components/MenuComponent/SignupPop'
+export default function Home({NavmenuOtpion}) {
   return (
     <>
-      <HomeFirst/>
-      <HomeSecond/>
+      <HomeFirst />
+      {!NavmenuOtpion.SignupPop&&<HomeSecond/>}
       <HomeThird/>
       <HomeFourth/>
       <HomeFIfth/>

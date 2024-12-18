@@ -3,7 +3,10 @@ html, body {
     font-family: FuturaPT, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 23px;
+    font-size: 1.5rem;
     color: #8f8f8f;
     font-weight: 500;
     }
+.Popupactive{
+ filter: brightness(0.5);
+}

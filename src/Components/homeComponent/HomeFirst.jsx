@@ -141,6 +141,11 @@ const Container=styled.div`
         .btn:hover{
         background:#e58200;
         }
+          @media only screen and (max-width:1058px){
+          .btndiv {
+        margin-top: 34px;
+}
+}
   @media only screen and (min-width:1100px){
   .paragraph{
     font-size: 1.5rem;
@@ -149,9 +154,6 @@ const Container=styled.div`
             @media only screen and (max-width:1100px){
   .paragraph{
     font-size: 1rem;
-    }
-       .btndiv {
-    margin-top: 63px;
     }
 
     .Signbutton img {

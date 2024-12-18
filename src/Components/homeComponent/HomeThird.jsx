@@ -179,25 +179,25 @@ background: #a3dbf0;
     color: black;
     }
     .cards{
-    height: 56vh;
+    height: 59vh;
     margin-top: 58px;
     display: flex;
     justify-content: space-between;
     
 }
     .card{
-  width: 23vw;
-      border: 1px solid #e5e2d6;
+width: 32.33%;
+    border: 1px solid #e5e2d6;
     border-radius: 6px;
     box-shadow: 0 0 3px 0 #e5e2d6;
     height: 100%;
     transition: box-shadow .2s;
     background-size: cover;
-      position: relative;
+    position: relative;
 }
 
   .img{
-    height: 31vh;
+        height: 50%;
     border-radius: 6px 6px 0 0;
     display: flex;
     justify-content: center;
@@ -208,9 +208,8 @@ background: #a3dbf0;
     height: 15vh;
     }
     .content{
-    height: 12vw;
     padding: 0px 0px 0px 10px;
-    height: 12vw;
+    height: 39%;
 }
     .orderbutton{
         position: absolute;
@@ -251,7 +250,7 @@ color: #2f3237;
      font-size: 0.8rem;
     border-radius: 3px;
     height: 6vh;
-    width: 10vw;
+    width: 100%;
     }
     .button:hover{
     background: #f5f3ee;
